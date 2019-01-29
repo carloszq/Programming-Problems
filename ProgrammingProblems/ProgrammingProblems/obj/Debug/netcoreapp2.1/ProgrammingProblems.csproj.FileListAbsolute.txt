@@ -1,0 +1,11 @@
+/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/bin/Debug/netcoreapp2.1/ProgrammingProblems.deps.json
+/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/bin/Debug/netcoreapp2.1/ProgrammingProblems.runtimeconfig.json
+/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/bin/Debug/netcoreapp2.1/ProgrammingProblems.runtimeconfig.dev.json
+/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/bin/Debug/netcoreapp2.1/ProgrammingProblems.dll
+/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/bin/Debug/netcoreapp2.1/ProgrammingProblems.pdb
+/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Debug/netcoreapp2.1/ProgrammingProblems.csprojAssemblyReference.cache
+/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Debug/netcoreapp2.1/ProgrammingProblems.csproj.CoreCompileInputs.cache
+/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Debug/netcoreapp2.1/ProgrammingProblems.AssemblyInfoInputs.cache
+/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Debug/netcoreapp2.1/ProgrammingProblems.AssemblyInfo.cs
+/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Debug/netcoreapp2.1/ProgrammingProblems.dll
+/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Debug/netcoreapp2.1/ProgrammingProblems.pdb
