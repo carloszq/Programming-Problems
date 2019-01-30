@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{C3F4C416-C7E7-4E69-AF51-FDD4E6AB8AFC}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammingProblems/Program.cs">
     <Files>
-      <File FileName="ProgrammingProblems/Program.cs" Line="13" Column="1" />
+      <File FileName="ProgrammingProblems/Program.cs" Line="2" Column="1" />
+      <File FileName="ProgrammingProblems/LeetCode.cs" Line="13" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ProgrammingProblems FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ProgrammingProblems PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
