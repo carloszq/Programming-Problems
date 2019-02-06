@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using ProgrammingProblems.LeetCodeUtil;
 
 namespace ProgrammingProblems
 {
@@ -48,6 +49,11 @@ namespace ProgrammingProblems
                 }
             }
 
+            return null;
+        }
+
+        public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+        {
             return null;
         }
     }
