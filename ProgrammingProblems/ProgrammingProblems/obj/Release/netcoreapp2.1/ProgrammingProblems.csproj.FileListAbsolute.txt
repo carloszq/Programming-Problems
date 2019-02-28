@@ -1,0 +1,10 @@
+C:\Users\cquinta\Documents\GitHub\Programming-Problems\ProgrammingProblems\ProgrammingProblems\bin\Release\netcoreapp2.1\ProgrammingProblems.deps.json
+C:\Users\cquinta\Documents\GitHub\Programming-Problems\ProgrammingProblems\ProgrammingProblems\bin\Release\netcoreapp2.1\ProgrammingProblems.runtimeconfig.json
+C:\Users\cquinta\Documents\GitHub\Programming-Problems\ProgrammingProblems\ProgrammingProblems\bin\Release\netcoreapp2.1\ProgrammingProblems.runtimeconfig.dev.json
+C:\Users\cquinta\Documents\GitHub\Programming-Problems\ProgrammingProblems\ProgrammingProblems\bin\Release\netcoreapp2.1\ProgrammingProblems.dll
+C:\Users\cquinta\Documents\GitHub\Programming-Problems\ProgrammingProblems\ProgrammingProblems\bin\Release\netcoreapp2.1\ProgrammingProblems.pdb
+C:\Users\cquinta\Documents\GitHub\Programming-Problems\ProgrammingProblems\ProgrammingProblems\obj\Release\netcoreapp2.1\ProgrammingProblems.csproj.CoreCompileInputs.cache
+C:\Users\cquinta\Documents\GitHub\Programming-Problems\ProgrammingProblems\ProgrammingProblems\obj\Release\netcoreapp2.1\ProgrammingProblems.AssemblyInfoInputs.cache
+C:\Users\cquinta\Documents\GitHub\Programming-Problems\ProgrammingProblems\ProgrammingProblems\obj\Release\netcoreapp2.1\ProgrammingProblems.AssemblyInfo.cs
+C:\Users\cquinta\Documents\GitHub\Programming-Problems\ProgrammingProblems\ProgrammingProblems\obj\Release\netcoreapp2.1\ProgrammingProblems.dll
+C:\Users\cquinta\Documents\GitHub\Programming-Problems\ProgrammingProblems\ProgrammingProblems\obj\Release\netcoreapp2.1\ProgrammingProblems.pdb

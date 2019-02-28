@@ -681,28 +681,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/carloszq/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\cquinta\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/ProgrammingProblems.csproj",
+      "projectUniqueName": "C:\\Users\\cquinta\\Documents\\GitHub\\Programming-Problems\\ProgrammingProblems\\ProgrammingProblems\\ProgrammingProblems.csproj",
       "projectName": "ProgrammingProblems",
-      "projectPath": "/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/ProgrammingProblems.csproj",
-      "packagesPath": "/Users/carloszq/.nuget/packages/",
-      "outputPath": "/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj",
+      "projectPath": "C:\\Users\\cquinta\\Documents\\GitHub\\Programming-Problems\\ProgrammingProblems\\ProgrammingProblems\\ProgrammingProblems.csproj",
+      "packagesPath": "C:\\Users\\cquinta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cquinta\\Documents\\GitHub\\Programming-Problems\\ProgrammingProblems\\ProgrammingProblems\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/carloszq/.config/NuGet/NuGet.Config"
+        "C:\\Users\\cquinta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -720,7 +722,6 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

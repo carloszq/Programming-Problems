@@ -3,10 +3,15 @@
     /// <summary>
     /// List node class defined in LeetCode.com (Problem 2. Add Two Numbers)
     /// </summary>
-    public class ListNode
+    public class ListNode<T>
     {
-        public int val;
-        public ListNode next;
-        public ListNode(int x) { val = x; }
+        public T Val { get; set; }
+
+        public ListNode<T> Next { get; set; }
+
+        public ListNode(T value)
+        {
+            Val = value;
+        }
     }
 }
