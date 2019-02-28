@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using ProgrammingProblems.LeetCodeUtil;
 
 namespace ProgrammingProblems
 {
@@ -49,6 +50,52 @@ namespace ProgrammingProblems
             }
 
             return null;
+        }
+
+        /// <summary>
+        /// Leet Code #2 - Add Two Numbers.
+        ///  
+        /// Problem: You are given two non-empty linked lists representing two non-negative integers. 
+        /// The digits are stored in reverse order and each of their nodes contain a single digit. 
+        /// Add the two numbers and return it as a linked list.
+        /// 
+        /// *You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+        /// 
+        /// Proposed Solution: Math approach. Traverse both list from its head and sum each node as single digit operation while 
+        /// adding the carry to next iteration if the sum "overflows".
+        /// Time Complexity: O(max(m, n)) as worst case scenario will need to iterate the max(m, n) where m=l1 length, n=l2 length.
+        /// </summary>
+        /// <param name="l1"></param>
+        /// <param name="l2"></param>
+        /// <returns></returns>
+        public static ListNode<int> AddTwoNumbers(ListNode<int> l1, ListNode<int> l2)
+        {
+            // 1. Create dummy head node and aux node for iterating result.
+            ListNode<int> resultHead = new ListNode<int>(0);
+            ListNode<int> auxNode = resultHead;
+            int sumCarry = 0;
+
+            // 2. Iterate lists if at least one of them is not null, or if a carry is present.
+            while (null != l1 || null != l2 || sumCarry != 0)
+            {
+                // 3. Add single digits from list nodes and carry.
+                int summand1 = l1 != null ? l1.Val : 0;
+                int summand2 = l2 != null ? l2.Val : 0;
+                int sum = summand1 + summand2 + sumCarry;
+
+                // 4. Carry will be 0 or 1 for a single digit sum.
+                sumCarry = sum / 10;
+
+                // 5. Mod 10 of sum will ensure a single digit is the result in case of 
+                // an overflow. ex. 9 + 9 = 18, 18 Mod 10 = 8; 5 + 4 = 9, 9 Mod 10 = 9.
+                auxNode.Next = new ListNode<int>(sum % 10);
+                auxNode = auxNode.Next;
+                
+                l1 = l1?.Next;
+                l2 = l2?.Next;
+            }
+
+            return resultHead.Next;
         }
     }
 }
