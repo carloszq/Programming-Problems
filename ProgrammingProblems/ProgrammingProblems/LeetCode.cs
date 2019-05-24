@@ -97,5 +97,41 @@ namespace ProgrammingProblems
 
             return resultHead.Next;
         }
+
+        /// <summary>
+        /// Lengths the of longest substring.
+        /// </summary>
+        /// <returns>The of longest substring.</returns>
+        /// <param name="s">S.</param>
+        public static int LengthOfLongestSubstring(string s)
+        {
+            if (s == null)
+            {
+                return 0;
+            }
+
+            var length = 0;
+            var map = new Dictionary<char, bool>();
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                map.Clear();
+                int currentLength = 0;
+                for (int j = i; j < s.Length; j++)
+                {
+                    var key = s[j];
+                    if (map.ContainsKey(key))
+                    {
+                        break;
+                    }
+
+                    map.Add(key, true);
+                    currentLength++;
+                    length = currentLength > length ? currentLength : length;
+                }
+            }
+
+            return length;
+        }
     }
 }
