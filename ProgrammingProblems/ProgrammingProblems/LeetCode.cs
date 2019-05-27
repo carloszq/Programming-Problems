@@ -133,5 +133,50 @@ namespace ProgrammingProblems
 
             return length;
         }
+
+        /// <summary>
+        /// Leet Code #5 - Longest Palindromic Substring.
+        ///  
+        /// Problem: Given a string s, find the longest palindromic substring in s. 
+        /// 
+        /// * You may assume that the maximum length of s is 1000.
+        /// 
+        /// Proposed Solution: 
+        /// </summary>
+        /// <returns></returns>
+        public static string LongestPalindromicSubstring(string s)
+        {
+            if (s.Length >= 1000)
+            {
+                return null;
+            }
+
+            string longestPalindrome = string.Empty;
+            // 1. Traverse string to exctract substrings.
+            for (int i = 0; i < s.Length; i++)
+            {
+                for (int j = i; j < s.Length; j++)
+                {
+                    var length = (j - i) + 1;
+                    var candidate = s.Substring(i, length);
+
+                    // 2. Check is string is a palindrome
+                    if (candidate.IsPalindrome())
+                    {
+                        // 3. If it is a palindrome, compare with previous longest.
+                        longestPalindrome = longestPalindrome.Length < candidate.Length
+                            ? candidate
+                            : longestPalindrome;
+                    }
+                    else 
+                    {
+                        i = j;
+                        j = i;
+                    }
+                }
+            }
+
+            return longestPalindrome;
+        }
     }
 }
