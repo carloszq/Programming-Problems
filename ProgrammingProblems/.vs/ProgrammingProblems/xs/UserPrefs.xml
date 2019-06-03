@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{C3F4C416-C7E7-4E69-AF51-FDD4E6AB8AFC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammingProblems/LeetCode.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs">
     <Files>
       <File FileName="ProgrammingProblems/LeetCodeUtil/ListNode.cs" Line="8" Column="9" />
-      <File FileName="ProgrammingProblems/LeetCode.cs" Line="171" Column="26" />
-      <File FileName="ProgrammingProblems/Program.cs" Line="13" Column="1047" />
-      <File FileName="ProgrammingProblems/LeetCodeUtil/ArrayExtension.cs" Line="5" Column="5" />
-      <File FileName="ProgrammingProblems/LeetCodeUtil/StringUtil.cs" Line="15" Column="10" />
+      <File FileName="ProgrammingProblems/LeetCode.cs" Line="196" Column="13" />
+      <File FileName="ProgrammingProblems/Program.cs" Line="8" Column="40" />
+      <File FileName="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" Line="31" Column="67" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ProgrammingProblems PreferredExecutionTarget="MonoDevelop.Default" />
