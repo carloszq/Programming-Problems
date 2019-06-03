@@ -8,7 +8,7 @@ namespace ProgrammingProblems
         static void Main(string[] args)
         {
             // Test code here.
-            Console.WriteLine($"Reverse: {LeetCode.Reverse(2147483647)}"); 
+            Console.WriteLine($"Atoi of <    -42>={LeetCode.MyAtoi("    -42")}"); 
         }    
     }
 }
