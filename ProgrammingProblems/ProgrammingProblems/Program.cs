@@ -8,7 +8,7 @@ namespace ProgrammingProblems
         static void Main(string[] args)
         {
             // Test code here.
-            Console.WriteLine($"Atoi of <    -42>={LeetCode.MyAtoi("    -42")}"); 
+            Console.WriteLine($"Is Palindrome <121>: {LeetCode.IsPalindrome(10)}"); 
         }    
     }
 }

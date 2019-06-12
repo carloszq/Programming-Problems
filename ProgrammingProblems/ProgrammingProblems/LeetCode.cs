@@ -220,5 +220,24 @@ namespace ProgrammingProblems
         {
             return str.Atoi();
         }
+
+        /// <summary>
+        /// Leet Code #9 - Palindrome Number
+        ///  
+        /// Problem: Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+        /// 
+        /// Proposed Solution: Math approach. Reversed int (by division and module) and the compared reversed int with original int.
+        /// </summary>
+        /// <returns>|true| if palindrome, otherwise |false|.</returns>
+        public static bool IsPalindrome(int x)
+        {
+            if (x < 0)
+            {
+                return false;
+            }
+
+            var reversedX = x.Reverse();
+            return reversedX == x;
+        }
     }
 }
