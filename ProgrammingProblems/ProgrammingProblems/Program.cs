@@ -1,4 +1,4 @@
-﻿using ProgrammingProblems.LeetCodeUtil;
+﻿using ProgrammingProblems.Amazon;
 using System;
 
 namespace ProgrammingProblems
@@ -7,8 +7,16 @@ namespace ProgrammingProblems
     {
         static void Main(string[] args)
         {
+            var skiSlope = new int[,]
+            {
+                { 0, 0, 0, 0 },
+                { 0, 1, 0, 1 },
+                { 0, 0, 0, 0 },
+                { 1, 1, 1, 1 }
+            };
+
             // Test code here.
-            Console.WriteLine($"Is Palindrome <121>: {LeetCode.IsPalindrome(10)}"); 
+            Console.WriteLine($"Has clear path in ski slope?: {AmazonProblems.PathExistInSlope(skiSlope)}"); 
         }    
     }
 }

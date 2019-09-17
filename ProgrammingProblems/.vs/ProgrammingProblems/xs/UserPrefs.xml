@@ -1,19 +1,28 @@
 ﻿<Properties StartupConfiguration="{C3F4C416-C7E7-4E69-AF51-FDD4E6AB8AFC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammingProblems/LeetCode.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammingProblems/Amazon/AmazonProblems.cs">
     <Files>
-      <File FileName="ProgrammingProblems/LeetCodeUtil/ListNode.cs" Line="8" Column="9" />
-      <File FileName="ProgrammingProblems/LeetCode.cs" Line="237" Column="34" />
-      <File FileName="ProgrammingProblems/Program.cs" Line="11" Column="77" />
+      <File FileName="ProgrammingProblems/Program.cs" Line="11" Column="14" />
+      <File FileName="ProgrammingProblems/Amazon/AmazonProblems.cs" Line="5" Column="21" />
+      <File FileName="ProgrammingProblems/LeetCode.cs" Line="237" Column="14" />
       <File FileName="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" Line="68" Column="45" />
-      <File FileName="ProgrammingProblems/LeetCodeUtil/StringUtil.cs" Line="112" Column="10" />
-      <File FileName="ProgrammingProblems/LeetCodeUtil/CharUtil.cs" Line="3" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ProgrammingProblems PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="36" column="1" />
+      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="54" column="1" />
+      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="66" column="1" />
+      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="72" column="1" />
+      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="62" column="1" />
+      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="56" column="1" />
+      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="51" column="1" />
+      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="68" column="1" />
+      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="60" column="1" />
+      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="49" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
