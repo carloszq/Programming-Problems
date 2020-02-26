@@ -1,10 +1,26 @@
-﻿namespace ProgrammingProblems.LeetCodeUtil
+﻿using System.Collections.Generic;
+
+namespace ProgrammingProblems.LeetCodeUtil
 {
     /// <summary>
     ///     This class provides a set of extended functionality to the <see cref="int"/> data type.
     /// </summary>
     public static class IntegerUtil
     {
+        /// <summary>
+        ///     Dictionary of roman numerals to integer values.
+        /// </summary>
+        public static Dictionary<string, int> RomanToIntMap = new Dictionary<string, int>
+        {
+            { "M", 1000 },
+            { "D", 500 },
+            { "C", 100 },
+            { "L", 50 },
+            { "X", 10 },
+            { "V", 5 },
+            { "I", 1 },
+        };
+
         /// <summary>
         ///     Reverse the specified integer using only Int32 values.
         /// </summary>
@@ -78,6 +94,41 @@
             var isParse = int.TryParse(reversedX, out int result);
 
             return isParse ? result : 0;
+        }
+
+        /// <summary>
+        ///     Convert a roman numeral to integer.
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
+        public static int RomanToInteger(this string s)
+        {
+            int result = 0;
+            int prevIntDigit = 0;
+
+            // Traverse string and convert digits.
+            for (int i = 0; i < s.Length; i++)
+            {
+                // Map roman digit to integer.
+                string romanDigit = s[i].ToString();
+                var intFound = RomanToIntMap.TryGetValue(romanDigit, out int intDigit);
+                if (intFound == false)
+                {
+                    return -1;
+                }
+
+                result += intDigit;
+
+                // If prev digit is smaller, substract times two.
+                if (prevIntDigit < intDigit)
+                {
+                    result -= (2 * prevIntDigit);
+                }
+
+                prevIntDigit = intDigit;
+            }
+
+            return result;
         }
     }
 }
