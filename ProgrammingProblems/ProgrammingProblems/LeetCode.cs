@@ -239,5 +239,18 @@ namespace ProgrammingProblems
             var reversedX = x.Reverse();
             return reversedX == x;
         }
+
+        /// <summary>
+        /// Leet Code #13 - Roman to Integer
+        ///  
+        /// Problem: Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from 1 to 3999.
+        /// 
+        /// Proposed Solution: Traverse array to sum each digit and handle special cases where a substraction is needed.
+        /// </summary>
+        /// <returns>Integer value of a roman numeral.</returns>
+        public static int RomanToInt(string s)
+        {
+            return IntegerUtil.RomanToInteger(s);
+        }
     }
 }

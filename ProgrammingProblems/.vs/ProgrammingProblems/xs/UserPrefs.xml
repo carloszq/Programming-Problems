@@ -1,27 +1,35 @@
 ﻿<Properties StartupConfiguration="{C3F4C416-C7E7-4E69-AF51-FDD4E6AB8AFC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammingProblems/Amazon/AmazonProblems.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs">
     <Files>
-      <File FileName="ProgrammingProblems/Program.cs" Line="11" Column="14" />
-      <File FileName="ProgrammingProblems/Amazon/AmazonProblems.cs" Line="5" Column="21" />
-      <File FileName="ProgrammingProblems/LeetCode.cs" Line="237" Column="14" />
-      <File FileName="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" Line="68" Column="45" />
+      <File FileName="ProgrammingProblems/Program.cs" Line="10" Column="1" />
+      <File FileName="ProgrammingProblems/Amazon/AmazonProblems.cs" />
+      <File FileName="ProgrammingProblems/LeetCode.cs" />
+      <File FileName="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" Line="104" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProgrammingProblems" expanded="True">
+            <Node name="ProgrammingProblems" expanded="True">
+              <Node name="LeetCodeUtil" expanded="True">
+                <Node name="IntegerUtil.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ProgrammingProblems PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="36" column="1" />
-      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="54" column="1" />
-      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="66" column="1" />
-      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="72" column="1" />
-      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="62" column="1" />
-      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="56" column="1" />
-      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="51" column="1" />
-      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="68" column="1" />
-      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="60" column="1" />
-      <Breakpoint enabled="false" file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Amazon/AmazonProblems.cs" relfile="ProgrammingProblems/Amazon/AmazonProblems.cs" line="49" column="1" />
+      <Breakpoint file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" relfile="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" line="88" column="1" />
+      <Breakpoint file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" relfile="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" line="104" column="1" />
+      <Breakpoint file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" relfile="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" line="101" column="1" />
+      <Breakpoint file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Program.cs" relfile="ProgrammingProblems/Program.cs" line="10" column="1" />
+      <Breakpoint file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" relfile="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" line="93" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
