@@ -252,5 +252,26 @@ namespace ProgrammingProblems
         {
             return IntegerUtil.RomanToInteger(s);
         }
+
+        /// <summary>
+        /// Leet Code #14 - Longest Common Prefix
+        ///  
+        /// Problem: Write a function to find the longest common prefix string amongst an array of strings. 
+        /// 
+        /// If there is no common prefix, return an empty string "".
+        /// 
+        /// Constrains:
+        ///     0 <= strs.length <= 200
+        ///     0 <= strs[i].length <= 200
+        ///     strs[i] consists of only lower-case English letters.
+        /// 
+        /// Proposed Solution: Find string with shortest length. Compare each character among the different strings until a different character 
+        /// is found or the found length limit has been reached.
+        /// </summary>
+        /// <returns>Longest common prefix.</returns>
+        public static string LongestCommonPrefix(string[] strs)
+        {
+            return StringUtil.LongestCommonPrefix(strs);
+        }
     }
 }

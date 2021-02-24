@@ -112,6 +112,31 @@ namespace ProgrammingProblems.LeetCodeUtil
         }
 
         /// <summary>
+        /// Given an array of string returns the string with the shortest length.
+        /// </summary>
+        /// <param name="strs">Array of strings.</param>
+        /// <returns>Shortest string, otherwise empty string.</returns>
+        public static string FindShortestString(this string[] strs)
+        {
+            if (strs == null || strs.Length == 0)
+            {
+                return string.Empty;
+            }
+
+            var shortestStr = strs[0];
+            for (int i = 1; i < strs.Length; i++)
+            {
+                var currString = strs[i];
+                if (shortestStr.Length > currString.Length)
+                {
+                    shortestStr = currString;
+                }
+            }
+
+            return shortestStr;
+        }
+
+        /// <summary>
         /// Is a given string a palindrome.
         /// </summary>
         /// <returns><c>true</c>, if palindrome, <c>false</c> otherwise.</returns>
@@ -134,6 +159,49 @@ namespace ProgrammingProblems.LeetCodeUtil
             }
 
             return true;
+        }
+
+        /// <summary>
+        ///     Find the longest common prefix in an array of strings.
+        /// </summary>
+        /// <param name="strs">Array of strings.</param>
+        /// <returns>Longest commmon prefix, empty string otherwise.</returns>
+        public static string LongestCommonPrefix(this string[] strs)
+        {
+            if (strs == null || strs.Length == 0)
+            {
+                return string.Empty;
+            }
+
+            // Finrd the shortest string in array to limit common length.
+            var maxCommonLength = FindShortestString(strs).Length;
+            if (maxCommonLength == 0)
+            {
+                return string.Empty;
+            }
+
+            // Traverse array of strings.            
+            string prefixCandidate = string.Empty;
+            for (int i = 0; i < maxCommonLength; i++)
+            {
+                string firstString = strs[0];
+                var charToAdd = firstString[i];
+
+                // Compare each string current position.
+                for (int j = 1; j < strs.Length; j++)
+                {
+                    var currString = strs[j];
+                    var currChar = currString[i];
+                    if (charToAdd != currChar)
+                    {
+                        return prefixCandidate;
+                    }
+                }
+
+                prefixCandidate += charToAdd;
+            }
+
+            return prefixCandidate;
         }
 
         /// <summary>
