@@ -1,35 +1,36 @@
 ﻿<Properties StartupConfiguration="{C3F4C416-C7E7-4E69-AF51-FDD4E6AB8AFC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammingProblems/LeetCodeUtil/StringUtil.cs">
     <Files>
-      <File FileName="ProgrammingProblems/Program.cs" Line="10" Column="1" />
-      <File FileName="ProgrammingProblems/Amazon/AmazonProblems.cs" />
-      <File FileName="ProgrammingProblems/LeetCode.cs" />
-      <File FileName="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" Line="104" Column="1" />
+      <File FileName="ProgrammingProblems/Program.cs" Line="11" Column="86" />
+      <File FileName="ProgrammingProblems/LeetCode.cs" Line="1" Column="1" />
+      <File FileName="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" Line="1" Column="1" />
+      <File FileName="ProgrammingProblems/LeetCodeUtil/StringUtil.cs" Line="167" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ProgrammingProblems" expanded="True">
             <Node name="ProgrammingProblems" expanded="True">
+              <Node name="Amazon" expanded="True" />
               <Node name="LeetCodeUtil" expanded="True">
-                <Node name="IntegerUtil.cs" selected="True" />
+                <Node name="StringUtil.cs" selected="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ProgrammingProblems PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" relfile="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" line="88" column="1" />
-      <Breakpoint file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" relfile="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" line="104" column="1" />
-      <Breakpoint file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" relfile="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" line="101" column="1" />
-      <Breakpoint file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/Program.cs" relfile="ProgrammingProblems/Program.cs" line="10" column="1" />
-      <Breakpoint file="/Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" relfile="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" line="93" column="1" />
+      <Breakpoint file="/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" relfile="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" line="88" column="1" />
+      <Breakpoint file="/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" relfile="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" line="104" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

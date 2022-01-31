@@ -18,3 +18,13 @@ C:/Users/cquinta/Documents/GitHub/Programming-Problems/ProgrammingProblems/Progr
 /Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Release/netcoreapp2.1/ProgrammingProblems.AssemblyInfo.cs
 /Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Release/netcoreapp2.1/ProgrammingProblems.dll
 /Users/carloszq/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Release/netcoreapp2.1/ProgrammingProblems.pdb
+/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/bin/Release/netcoreapp2.1/ProgrammingProblems.deps.json
+/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/bin/Release/netcoreapp2.1/ProgrammingProblems.runtimeconfig.json
+/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/bin/Release/netcoreapp2.1/ProgrammingProblems.runtimeconfig.dev.json
+/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/bin/Release/netcoreapp2.1/ProgrammingProblems.dll
+/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/bin/Release/netcoreapp2.1/ProgrammingProblems.pdb
+/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Release/netcoreapp2.1/ProgrammingProblems.csproj.CoreCompileInputs.cache
+/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Release/netcoreapp2.1/ProgrammingProblems.AssemblyInfoInputs.cache
+/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Release/netcoreapp2.1/ProgrammingProblems.AssemblyInfo.cs
+/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Release/netcoreapp2.1/ProgrammingProblems.dll
+/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Release/netcoreapp2.1/ProgrammingProblems.pdb

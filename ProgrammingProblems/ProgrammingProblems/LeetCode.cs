@@ -273,5 +273,23 @@ namespace ProgrammingProblems
         {
             return StringUtil.LongestCommonPrefix(strs);
         }
+
+        /// <summary>
+        /// Leet Code #20 - Valid Parentheses
+        ///  
+        /// Problem: Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+        ///
+        ///  An input string is valid if:
+        ///     Open brackets must be closed by the same type of brackets.
+        ///     Open brackets must be closed in the correct order.
+        /// 
+        /// Proposed Solution: Traverse string and push open brackets into a helper Stack. If closed bracket is found Dequeue last element and
+        /// validate that it matches with last open bracket in Stack. Repeat this until traversing all string or if brackets do not match.
+        /// </summary>
+        /// <returns>True if valid string of parentheses, otherwise false.</returns>
+        public static bool ValidParentheses(string s)
+        {
+            return StringUtil.HasValidParentheses(s);
+        }
     }
 }

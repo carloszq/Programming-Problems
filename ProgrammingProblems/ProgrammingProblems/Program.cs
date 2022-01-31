@@ -8,8 +8,13 @@ namespace ProgrammingProblems
         static void Main(string[] args)
         {
             // Test code here.
-            var strs = new string[] { "flower", "flow", "flight" };
-            Console.WriteLine($"Longest Common Prefix: {StringUtil.LongestCommonPrefix(strs)}");
+            Console.WriteLine($"Valid Parentheses: {StringUtil.HasValidParentheses("]")}");
+            Console.WriteLine($"Valid Parentheses: {StringUtil.HasValidParentheses("()")}");
+            Console.WriteLine($"Valid Parentheses: {StringUtil.HasValidParentheses("()[]{}")}");
+            Console.WriteLine($"Valid Parentheses: {StringUtil.HasValidParentheses("(]")}");
+            Console.WriteLine($"Valid Parentheses: {StringUtil.HasValidParentheses("(({}))")}");
+            Console.WriteLine($"Valid Parentheses: {StringUtil.HasValidParentheses("(()({}))")}");
+            Console.WriteLine($"Valid Parentheses: {StringUtil.HasValidParentheses("(()({c}))")}");
         }    
     }
 }
