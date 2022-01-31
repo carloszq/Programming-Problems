@@ -137,6 +137,61 @@ namespace ProgrammingProblems.LeetCodeUtil
         }
 
         /// <summary>
+        /// Given a string s it determines if it contains valid open and closing parenthesis. 
+        /// </summary>
+        /// <param name="s">String of parentheses.</param>
+        /// <returns>True if valid string of parentheses, otherwise false.</returns>
+        public static bool HasValidParentheses(this string s)
+        {
+            if (string.IsNullOrWhiteSpace(s) || s.Length > Math.Pow(10, 4))
+            {
+                return false;
+            }
+
+            // Map of valid open brackets.
+            var openBrackets = new Dictionary<char, char>
+            {
+                {'(', ')'},
+                {'{', '}'},
+                {'[', ']'},
+            };
+
+            // Map of valid closing brackets.
+            var closingBrackets = new Dictionary<char, char>
+            {
+                {')', '('},
+                {'}', '{'},
+                {']', '['}
+            };
+
+            var stack = new Stack<char>();
+            foreach (char p in s)
+            {
+                // If open bracket push.
+                if (openBrackets.TryGetValue(p, out _))
+                {
+                    stack.Push(p);
+                }
+                // If close bracket, find matching open bracket from stack.
+                else if (closingBrackets.TryGetValue(p, out char matchingClose)) 
+                {
+                    // If not matching return, false. Otherwise continue.
+                    if (stack.TryPop(out char lastOpen) == false || lastOpen != matchingClose)
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    return false;
+                }
+            }
+
+            // Check stack is empty.
+            return stack.Count == 0;
+        }
+
+        /// <summary>
         /// Is a given string a palindrome.
         /// </summary>
         /// <returns><c>true</c>, if palindrome, <c>false</c> otherwise.</returns>
