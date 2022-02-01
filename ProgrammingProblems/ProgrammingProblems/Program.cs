@@ -8,13 +8,7 @@ namespace ProgrammingProblems
         static void Main(string[] args)
         {
             // Test code here.
-            Console.WriteLine($"Valid Parentheses: {StringUtil.HasValidParentheses("]")}");
-            Console.WriteLine($"Valid Parentheses: {StringUtil.HasValidParentheses("()")}");
-            Console.WriteLine($"Valid Parentheses: {StringUtil.HasValidParentheses("()[]{}")}");
-            Console.WriteLine($"Valid Parentheses: {StringUtil.HasValidParentheses("(]")}");
-            Console.WriteLine($"Valid Parentheses: {StringUtil.HasValidParentheses("(({}))")}");
-            Console.WriteLine($"Valid Parentheses: {StringUtil.HasValidParentheses("(()({}))")}");
-            Console.WriteLine($"Valid Parentheses: {StringUtil.HasValidParentheses("(()({c}))")}");
+            Console.WriteLine($"Remove element: {ArrayExtension.RemoveElement(new int[] { 3, 2, 2, 3 }, 3)}");
         }    
     }
 }
