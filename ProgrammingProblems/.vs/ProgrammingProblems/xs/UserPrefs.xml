@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{C3F4C416-C7E7-4E69-AF51-FDD4E6AB8AFC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammingProblems/LeetCodeUtil/StringUtil.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProgrammingProblems/LeetCodeUtil/ArrayExtension.cs">
     <Files>
       <File FileName="ProgrammingProblems/Program.cs" Line="11" Column="86" />
-      <File FileName="ProgrammingProblems/LeetCode.cs" Line="1" Column="1" />
-      <File FileName="ProgrammingProblems/LeetCodeUtil/IntegerUtil.cs" Line="1" Column="1" />
-      <File FileName="ProgrammingProblems/LeetCodeUtil/StringUtil.cs" Line="167" Column="43" />
+      <File FileName="ProgrammingProblems/LeetCode.cs" Line="325" Column="36" />
+      <File FileName="ProgrammingProblems/LeetCodeUtil/ArrayExtension.cs" Line="11" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,14 +12,11 @@
             <Node name="ProgrammingProblems" expanded="True">
               <Node name="Amazon" expanded="True" />
               <Node name="LeetCodeUtil" expanded="True">
-                <Node name="StringUtil.cs" selected="True" />
+                <Node name="ArrayExtension.cs" selected="True" />
               </Node>
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

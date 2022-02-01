@@ -28,3 +28,6 @@ C:/Users/cquinta/Documents/GitHub/Programming-Problems/ProgrammingProblems/Progr
 /Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Release/netcoreapp2.1/ProgrammingProblems.AssemblyInfo.cs
 /Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Release/netcoreapp2.1/ProgrammingProblems.dll
 /Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Release/netcoreapp2.1/ProgrammingProblems.pdb
+/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Release/netcoreapp2.1/ProgrammingProblems.csproj.AssemblyReference.cache
+/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Release/netcoreapp2.1/ProgrammingProblems.GeneratedMSBuildEditorConfig.editorconfig
+/Users/carloszepeda/Documents/GitHub/Programming-Problems/ProgrammingProblems/ProgrammingProblems/obj/Release/netcoreapp2.1/ProgrammingProblems.genruntimeconfig.cache
